@@ -49,8 +49,9 @@ public class MainActivity extends AppCompatActivity {
 
         } else {
             if (btnCurrent.getText().equals("")) {
-                btnCurrent.setText("O");
+                btnCurrent.setText("0");
                 flag = 0;
+
                 count++;
             } else {
                 return;
